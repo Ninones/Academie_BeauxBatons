@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Académie BeauxBatons</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/carroussel.css">
+    <link rel="shortout icon" href="images/icone.ico">
+    <script src="scrpit.js" defer></script>
+</head>
+<body>
+    <header>
+        <nav class="nav">
+            <img src="images/logo_beauxbaton-06.png" alt="logo de l'académie">
+            <ul>
+                <li><a href="">Accueil</a></li>
+                <li><a href="histoire.html">Histoire</a></li>
+                <li><a href="formation/formation.php">Formation</a></li>
+                <li><a href="inscription/inscription.php">Inscription</a></li>
+            </ul>
+        </nav>
+        <h1>Académie de</h1>
+        <h2>BeauxBatons</h2>
+        <div id="date"><p>1313</p><p>2023</p></div>
+        <h3>"Nous estions ignorants, nous le serons moins d'ici l'an"</h3>
+    </header>
+
+    <section id="actu">
+    <article>
+        <!--Mettre en maj-->
+        <h3>La vie étudiant</h3>
+
+        <div id="grande">
+            <div id="boite3">
+                <div id="boite1">
+                    <div id="logement">
+                        <p class="titre1">Logement étudiants</p>
+                    </div>
+                    <div id="act">
+                        <p class="titre">Activités sportives <br> et culturelles</p>
+                    </div>
+                    
+                </div>
+                <div id="boite2">
+                    <div id="biblio">
+                        <p class="titre2">Bibliothèque</p>
+                    </div>
+                    <div id="restauration">
+                        <p class="titre3">Restauration</p>
+                    </div>
+                </div>
+            </div>
+            
+
+            <div id="social">
+                <p class="titre4">Social - Aides Financières</p>
+            </div>
+        </div>
+
+    </article>
+    </section>
+    <section id="carousel">
+        <h4>L'actualité</h4>
+        <div class="slide-container">
+            <div class="custom-slider fade">
+                <div class="slide-title">L’équipe de Lonicera a remporté son match</div>
+                <div class="slide-index">1 / 4</div>
+                <img class="slide-img" src="images_carroussel/theo.jpg" alt="photo théo">
+                <div class="slide-text">Les joueurs ont gagné haut la main avec un score de 40 points<br>contre 14 points contre son équipe adverse Urtica.</div>
+            </div>
+            <div class="custom-slider fade">
+                <div class="slide-title">Un article dans la une de la gazette du sorcier</div>
+                <div class="slide-index">2 / 4</div>
+                <img class="slide-img" src="images_carroussel/claire.jpg" alt="photo claire">
+                <div class="slide-text">La studieuse élève de la maison Lonicera a vu son article, qu’elle a réalisé dans le club de journal,<br>publié en première page de la gazette du sorcier. Un vrai succès pour notre école.</div>
+            </div>
+            <div class="custom-slider fade">
+                <div class="slide-title">Une nouvelle potion découverte</div>
+                <div class="slide-index">3 / 4</div>
+                <img class="slide-img" src="images_carroussel/claudya.jpg" alt="photo claudya">
+                <div class="slide-text">Hier soir, un élève de la maison Urtica a découvert une nouvelle potion grâce<br> à ses études de chercheurs qu’il a pu effectuer à la bibliothèque.</div>
+            </div>
+            <div class="custom-slider fade">
+                <div class="slide-title">Séjour de 3 jours dans les montagnes des Pyrénées</div>
+                <div class="slide-index">4 / 4</div>
+                <img class="slide-img" src="images_carroussel/ninon.jpg" alt="photo ninon">
+                <div class="slide-text">Ce jeudi matin, les élèves de la maison Aloysia sont partis direction la montagne pour un séjour de 3<br>jours pour apprendre à manier l’art du duel dans des conditions extrêmes. </div>
+            </div>
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+        </div>
+        <br>
+        <div class="slide-dot">
+            <span class="dot" onclick="currentSlide(1)"></span> 
+            <span class="dot" onclick="currentSlide(2)"></span> 
+            <span class="dot" onclick="currentSlide(3)"></span>
+            <span class="dot" onclick="currentSlide(4)"></span> 
+        </div>
+        
+    </section>
+
+    <footer>
+        <p>&copy; 2023 AcadémieBeauxBâtons. Tous droits réservés.</p>
+    </footer>
+
+</body>
+</html>
