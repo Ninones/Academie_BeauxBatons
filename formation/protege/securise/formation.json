@@ -1,0 +1,86 @@
+{
+    "POTIONS": {
+        "abreviation": "PTS01",
+        "image": ".\/images\/potions.jpg",
+        "professeur": "C\u00e9lesta Attorney",
+        "information": "Ce cours fournit une introduction aux potions. Les premi\u00e8res ann\u00e9es apprendront l\u2019utilisation de la s\u00e9curit\u00e9 et des potions fondamentales, les termes, le brassage et la th\u00e9orie de base. Nous aborderons les principaux ingr\u00e9dients ainsi que l\u2019histoire des potions.\r\n\r\nCes cours se d\u00e9roulent dans les laboratoires au sous-sol de Beauxb\u00e2tons, souvent en double cours. Il consiste en la m\u00e9morisation des propri\u00e9t\u00e9s des diff\u00e9rents ingr\u00e9dients de potions et en la composition de certaines potions. Les \u00e9l\u00e8ves sont aussi amen\u00e9s \u00e0 en pr\u00e9parer certaines potions et \u00e0 r\u00e9aliser des essais sur les propri\u00e9t\u00e9s des ingr\u00e9dients de potions.",
+        "graduation": [
+            "Potion de Jaunisse (pratique)",
+            "Potion d'All\u00e9gresse (pratique)",
+            "Philtre de Mort Vivant(th\u00e9orie)",
+            "Potion d\u2019Amn\u00e9sie(pratique)",
+            "Somnif\u00e8re(pratique)",
+            "Philtre de Double Vue (pratique, examen final)"
+        ]
+    },
+    "ASTRONOMIE": {
+        "abreviation": "ASTR",
+        "image": ".\/images\/astronomie.jpg",
+        "professeur": "Gabriel Dellacour ",
+        "information": "Vous \u00eates-vous d\u00e9j\u00e0 demand\u00e9 ce qu'il y a au-del\u00e0 de cette Terre ? Oui, le ciel nocturne est peut-\u00eatre magnifique, mais la connaissance des cieux peut \u00e9galement vous aider \u00e0 devenir une meilleure sorci\u00e8re ou un meilleur sorcier. Au cours de la premi\u00e8re ann\u00e9e d'astronomie, vous observerez le ciel avec un t\u00e9lescope magique, en apprendrez davantage sur nos voisins du syst\u00e8me solaire et d\u00e9couvrirez comment la magie r\u00e9fl\u00e9chie par les objets astronomiques peut nous affecter tous sur Terre. Venez nous rejoindre dans Astronomie 101 - c'est une aventure hors du commun !",
+        "graduation": [
+            "Outils moldus pour l'astronomie",
+            "Outils pour assistants et conseils de visualisation ",
+            "Introduction au quotient ",
+            "Autres corps c\u00e9lestes du syst\u00e8me solaire",
+            "Comment trouver les composants AME",
+            "Le Soleil et les plan\u00e8tes de notre syst\u00e8me solaire "
+        ]
+    },
+    "DEFENSE CONTRE LES FORCES DU MAL": {
+        "abreviation": "DFM",
+        "image": ".\/images\/defensecontreforcedumal.jpg",
+        "professeur": "Rose Epidon",
+        "information": "Les heures de cours de d\u00e9fense contre les forces du Mal sont l'occasion d'\u00e9tudier la magie noire, les cr\u00e9atures des t\u00e9n\u00e8bres et la fa\u00e7on de les affronter.\r\n\r\nChaque professeur a ses domaines de pr\u00e9dilection et il arrive que certains critiquent ouvertement la qualit\u00e9 des cours de certains de ses pr\u00e9d\u00e9cesseurs, soulignant de l'avance sur certains chapitres et du retard sur d'autres.\r\nLa premi\u00e8re ann\u00e9e offre un aper\u00e7u g\u00e9n\u00e9ral de ce que sont les forces du Mal.",
+        "graduation": [
+            "Introduction \u00e0 la d\u00e9fense contre les forces du mal ",
+            "Des lumi\u00e8res vives et un petit r\u00e9v\u00e9lateur",
+            "Types de sorts et \u00e9puisement magique ",
+            "Diablotins et Bowtruckles ",
+            "Gnomes et Doxies  ",
+            "Gargouilles et sorci\u00e8res"
+        ]
+    },
+    "BOTANIQUE": {
+        "abreviation": "BTN",
+        "image": ".\/images\/herbologie.png",
+        "professeur": "Eug\u00e8ne Beauxbatons",
+        "information": "Enseignement de l'\u00e9tude des v\u00e9g\u00e9taux magiques. \r\nLes cours ont lieu dans des serres qui se trouvent dans le parc, plus pr\u00e9cis\u00e9ment \u00e0 l'arri\u00e8re du ch\u00e2teau et \u00e0 proximit\u00e9 du potager.",
+        "graduation": [
+            "Introduction",
+            "Outils du m\u00e9tier ",
+            "Comment entra\u00eener votre Snapdragon",
+            " Il y a de la magie en chacun de nous Fleurs de base : Partie I ",
+            "Fleurs de base : partie II",
+            "Herbes dangereuses"
+        ]
+    },
+    "METAMORPHOSE": {
+        "abreviation": "MET",
+        "image": ".\/images\/transfiguration.jpg",
+        "professeur": "Titus le Moal",
+        "information": "La m\u00e9tamorphose est consid\u00e9r\u00e9e comme la forme de magie la plus scientifique (qui exige une ma\u00eetrise parfaite et des r\u00e9sultats pr\u00e9cis) ainsi que comme \u00e9tant particuli\u00e8rement dangereuse et complexe \u00e0 \u00e9tudier, sa mati\u00e8re permet d'en acqu\u00e9rir toutes les notions. Son enseignement comprend ainsi les sorts permettant de transformer la forme et l'apparence, des objets, des animaux et des \u00eatres humains, de leur rendre leur aspects d\u2019origine et ceux de faire appara\u00eetre ou dispara\u00eetre des objets et des animaux.",
+        "graduation": [
+            "Introduction",
+            "Les quatre types ",
+            "Les cinq exceptions",
+            "Th\u00e9orie de la m\u00e9tamorphose ",
+            "De la fourchette \u00e0 la plume ",
+            "Du verre au sable "
+        ]
+    },
+    "HISTOIRE DE LA MAGIE": {
+        "abreviation": "HDM",
+        "image": ".\/images\/histoire.jpg",
+        "professeur": "Olivier Fauchet",
+        "information": "Elle a pour but d'apprendre aux jeunes sorciers ce qui a fait leur monde, entre autre les sanglantes r\u00e9voltes de gobelins et les guerres de g\u00e9ants.",
+        "graduation": [
+            "Introduction",
+            "Les d\u00e9buts de la magie",
+            " Am\u00e9rique Asie part I  ",
+            "Asie part II ",
+            "Europe",
+            "Magie et religion"
+        ]
+    }
+}

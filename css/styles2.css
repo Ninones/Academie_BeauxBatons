@@ -1,0 +1,191 @@
+@font-face {
+    font-family: "Jim Nightshade";
+    src: url("../polices/JimNightshade-Regular.ttf");
+}
+
+@font-face {
+    font-family: "Monteserrat Subrayada";
+    src: url("../polices/MontserratSubrayada-Bold.ttf");
+}
+
+/* CORPS DE PAGE */
+
+body{
+    background-image: url("../images/original_gra.png");
+    background-size: 100% 30%;
+    background-repeat: no-repeat;
+    background-color: #20240D;
+}
+
+
+#titre{
+    margin-top: 140px;
+}
+
+header h1 {
+    font-family: 'Jim Nightshade';
+    color: #f5f5f5;
+    font-size: 28px;
+    font-style: normal;
+    margin: 0px;
+}
+
+header h2 {
+    font-family: 'Montserrat Subrayada', sans-serif;
+    color : #f5f5f5;
+    font-size: 50px;
+    margin: 0px;
+}
+
+header #date{
+    font-family: 'Jim Nightshade';
+    color : #f5f5f5;
+    font-size: 25px;
+    font-weight: 100px;
+}
+
+header h3 {
+    font-family: 'Jim Nightshade';
+    color : #f5f5f5;
+    font-size: 25px;
+    font-weight: 100px;
+    margin : 0px
+}
+
+/* BARRE DE NAVIAGATION */
+
+nav {
+    float: right;
+}
+
+nav ul li {
+    list-style: none;
+   
+}
+
+nav ul li a {
+    padding : 0px 20px;
+    text-decoration: none;
+    color : #20240D; 
+}
+
+nav ul li a:hover {
+    background-color: #ffff;
+    border-radius: 5px;
+}
+
+nav img {
+    width: 100px;
+    height: 100px;
+    padding-right: 870px;
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+ul {
+    display: flex;
+    justify-content: end;
+    margin-bottom: 70px;
+    margin-top: 0px;
+}
+
+/* TITRE PRINCIPAL */
+
+header {
+    text-align: center;
+    padding: 16px;
+}
+
+div#date {
+    display: flex;
+    justify-content: center;
+}
+
+div#date p {
+    margin: 0px 70px;
+}
+
+section#text {
+    color: #f5f5f5;
+    backdrop-filter: blur(3px);
+    text-align: center;
+    margin : 0px 30px;
+    font-size: 20px;
+}
+/* CONTENU */
+article {
+    font-family:'Times New Roman', Times, serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin : auto;
+    color : #f5f5f5
+}
+
+article #histoire {
+    width: 140vh;
+    margin: auto;
+}
+
+article p{
+    text-align: justify;
+}
+
+article h2 {
+    text-transform: uppercase;
+    margin-top: 260px;
+}
+
+
+#img_chateau, #img_famille {
+    margin: 2em;
+}
+
+#img_chateau {
+    float:right;
+    margin-right: 0;
+}
+
+#img_famille {
+    float: left;
+    margin-left: 0;
+}
+/* BLASONS ACADEMIE */
+#blasons {
+    display: flex;
+    justify-content: space-between;
+    width: 130vh;
+    height: auto;
+    margin: auto;
+}
+
+#blasons img{
+    width: 100%;
+}
+
+.image {
+    display: flex;
+    flex-direction: column;
+}
+.image span {
+    visibility: hidden;
+}
+ 
+.image img:hover + span {
+    visibility: visible;
+    color: #f5f5f5;
+    text-align: center;
+}
+
+/* BAS DE PAGE */
+
+footer {
+    background-color: rgba(32, 32, 32, 0.7);
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
